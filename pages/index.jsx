@@ -1,3 +1,12 @@
 import React from 'react'
+import Link from 'next/link'
 
-export default () => <h1>Index Page</h1>
+export default () => (
+  <div>
+    <h1>Index page</h1>
+
+    <Link href="/notes">
+      <a>Notes</a>
+    </Link>
+  </div> 
+)
