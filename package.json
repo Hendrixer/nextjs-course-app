@@ -15,10 +15,5 @@
     "react-dom": "^16.13.1",
     "theme-ui": "^0.3.1"
   },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
   "devDependencies": {}
 }
