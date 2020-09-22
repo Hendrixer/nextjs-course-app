@@ -14,7 +14,8 @@ export default () => (
       }}
     >
       <h1 sx={{ fontSize: 8, my: 0 }}>
-        This is a really dope note taking app.
+        {" "}
+        This is a really dope note taking app.{" "}
       </h1>
     </div>
   </div>
