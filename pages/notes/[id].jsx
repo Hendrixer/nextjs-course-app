@@ -1,22 +1,15 @@
-import React from "react";
+/** @jsx jsx */ /** @jsxRuntime classic */ import { jsx } from "theme-ui";
+
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-// file => /docs/[...params].jsx
-// route => /docs/a/b/c
-
-// Brackets [] in the file name denotes a route with a paramter (here it's the params parameter)
 const Note = () => {
   const router = useRouter();
   const { id } = router.query;
 
   return (
-    <div>
+    <div sx={{ variant: "containers.page" }}>
       <h1>Note: {id} </h1>
-
-      <Link href="/notes">
-        <a>Notes</a>
-      </Link>
     </div>
   );
 };

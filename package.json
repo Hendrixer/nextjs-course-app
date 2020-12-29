@@ -5,7 +5,9 @@
   "author": "Scott Moss <willscottmoss@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@theme-ui/presets": "^0.3.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@theme-ui/presets": "^0.3.5",
     "body-parser": "^1.19.0",
     "dotenv-load": "^2.0.0",
     "next": "^10.0.4",
@@ -13,7 +15,7 @@
     "next-env": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "theme-ui": "^0.3.1"
+    "theme-ui": "^0.3.5"
   },
   "scripts": {
     "dev": "next",
