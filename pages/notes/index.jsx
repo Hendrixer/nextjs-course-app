@@ -37,7 +37,7 @@ export default Notes;
 // if you use this function you will opt in to use the Server-side Rendering Rendering mode
 // Server-side Rendering Pages built at run time into HTML. Cached after the initial hit.
 export const getServerSideProps = async (ctx) => {
-  const res = await fetch(`http://localhost:3000/api/note/`);
+  const res = await fetch(`${process.env.API_URL}/api/note/`);
   const { data } = await res.json();
   console.log("data", data);
 
