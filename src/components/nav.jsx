@@ -1,5 +1,6 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
+/** @jsxRuntime classic */
+import { jsx } from 'theme-ui';
 import Link from 'next/link'
 
 const Nav = () => (

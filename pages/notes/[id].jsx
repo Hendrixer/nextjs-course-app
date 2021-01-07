@@ -1,4 +1,5 @@
 /** @jsx jsx */
+/** @jsxRuntime classic */
 import { jsx } from 'theme-ui'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
