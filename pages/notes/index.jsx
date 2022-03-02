@@ -1,8 +1,15 @@
 /** @jsx jsx */
+<<<<<<< HEAD
 import { jsx } from "theme-ui";
 import Link from "next/link";
 
 export default ({ notes }) => {
+=======
+import { jsx } from 'theme-ui'
+import Link from 'next/link'
+
+export default ({notes}) => {
+>>>>>>> master
   return (
     <div sx={{ variant: "containers.page" }}>
       <h1>My Notes</h1>
@@ -38,4 +45,14 @@ export async function getServerSideProps() {
   return {
     props: { notes: data },
   };
+}
+
+
+export async function getServerSideProps() {
+  const res = await fetch(`http://localhost:3000/api/note`)
+  const {data} = await res.json()
+
+  return {
+    props: {notes: data}
+  }
 }
