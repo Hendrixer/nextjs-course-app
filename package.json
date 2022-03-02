@@ -9,7 +9,11 @@
     "body-parser": "^1.19.0",
     "dotenv-load": "^2.0.0",
     "next": "^9.5.0",
+<<<<<<< HEAD
+    "next-connect": "^0.12.2",
+=======
     "next-connect": "^0.8.1",
+>>>>>>> master
     "next-env": "^1.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
