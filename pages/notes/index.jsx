@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import style from '../../Note.module.css';
 const notes = [
   {
     title : "Note 1",
@@ -16,7 +17,7 @@ const notes = [
 ]
 const Notes = () => {
   return ( 
-  <div> 
+  <div className={style.Note}> 
       {notes.map(note => <Link  href= '/notes/[id]' as ={`/notes/${note.id}`}>
       <a>{note.title}</a>
     </Link>)}
